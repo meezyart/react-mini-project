@@ -1,0 +1,46 @@
+.hero .tabs ul {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color : #dbdbdb;
+}
+.tabs.is-boxed a {
+    background: #f5f5f5;
+    border-radius: 0;
+    color: #333333;
+    padding: 0.5em 1.4em;
+        
+}
+.tabs.is-boxed a {
+     border-top: 1px solid #dbdbdb;
+     border-bottom: 1px solid #dbdbdb;
+         border-left: 1px solid #dbdbdb;
+}
+.tabs.is-boxed li:first-child  a{
+     border-radius: 5px 0 0 0;
+     border-left: 1px solid #dbdbdb;
+     
+     
+}
+.tabs.is-boxed li:last-child a {
+     border-radius: 0 5px  0 0;
+     border-right: 1px solid #dbdbdb;
+}
+
+.tabs li.is-active a {
+    color: #707074;
+}
+
+.tabs.is-boxed li.is-active a {
+
+  
+    border-bottom-color: transparent !important;
+    /* border-left-color: transparent !important; */
+    border-right-color: transparent ;
+}
+
+.tabs.is-boxed li:last-child.is-active a {
+    /* border-bottom-color: transparent !important; */
+    /* border-left-color: transparent !important; */
+    border-right-color: #dbdbdb;
+    ;
+}

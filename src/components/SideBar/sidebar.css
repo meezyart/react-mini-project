@@ -1,0 +1,47 @@
+.sidebar{
+
+}
+
+.sidebar--list{
+    
+}
+.sidebar--item{
+    border-bottom: 1px solid #cccccc;
+}
+.sidebar--item a{
+    width: 100%;
+    display: inline-block;
+    padding: .6rem ;
+    color: #707070;
+}
+.sidebar--item a:hover,
+.sidebar--item .active {
+    
+    background: #f5f5f5;
+}
+
+.sidebar--item:first-child {
+    border-top: 1px solid #cccccc;
+}
+
+
+/* font override */
+.sidebar--header {
+    font-size: .9rem;
+    margin-bottom: .05rem;
+    font-family: 'Segoe UI';
+    
+}
+/* font override */
+.sidebar--author {
+    font-size: .8rem;
+    line-height: 1.2;
+    display: inline-block;
+        font-weight: 600;
+}
+.sidebar--header--big {
+    font-size: 1.25rem;
+    margin-bottom: .6rem;
+}
+
+

@@ -1,0 +1,15 @@
+.hero .navbar{
+    background: #005183;
+    height: .4vh;
+}
+.hero.is-medium .hero-body {
+          padding-bottom: 3rem;
+          padding-top: 3rem;
+    
+}
+nav{
+    width: 100%;
+}
+i{
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.main--content {
+max-width: 40rem;
+}
+.content--author {
+    margin-bottom: 1rem;
+    display: block;
+font-weight: 600;
+}
+
+.content--author-blue {
+color: #005183;
+
+}
+
+.content--link{
+  font-weight: 600;
+      margin-bottom: 1.2rem;
+      display: block;
+      color:#1cb2e3;
+}
+
+.content--intro {
+        /* font-weight: 600; */
+        font-size: 1rem;
+}
+
+.title.is-1 {
+        font-size: 2.3rem;
+}
